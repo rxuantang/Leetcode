@@ -3,7 +3,6 @@ class Solution:
         lst_s = list(s)
         lst_t = list(t)
         fast_s, fast_t, slow_s, slow_t = 0, 0, 0, 0
-        # length = len()
         
         while fast_s < len(lst_s):
             if lst_s[fast_s] != "#":
